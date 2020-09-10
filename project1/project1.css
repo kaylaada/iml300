@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+    color: azure;
+    font-size: 25px;
+}
+
+p {
+    margin: 25px 50px 75px 100px; 
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 25px
+    
+    /* top margin is 25px, right margin is 50px, bottom margin is 75px, left margin is 100px */
+} 
+
+#h1 {
+    padding: 500px 450px;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.Intro {
+    font-family: monospace
+}
+
+.pic2 {
+    display: block;
+    margin: 50px 130px;
+    
+}
+
+.question1 {
+    font-family: inherit;
+    margin: 300px 300px;
+}
+
+.Opening span{
+    display: block;
+}
+
+.Opening {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.Text1{
+    color: deeppink;
+    font-size: 60px;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    background: black;
+    position: relative;
+    animation: text 3s 1;
+
+}
+
+.Text2{
+    font-family: 'Lexend Peta', sans-serif;
+/* what is happening here idk why it's not showing up properly */
+}
+@keyframes text{
+    0%{
+        color: black;
+    margin-bottom: -40px;
+    }
+    30%{ 
+    letter-spacing: 20px;
+        margin-bottom: -40px;
+    }
+        
+        80% {
+            letter-spacing: 10px;
+            margin-bottom: 40px;
+        }
+    }
+
+.pic2{
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+}
+
+.conclusion {
+    color: black;
+}
+
+/*.question1 {
+  /*  animation: text 5s 1;
+    @keyframes text{
+        0% {
+            opacity: 0%;
+            }
+        25% {
+            opacity: 25
+        }
+        50% {
+            opacity: 
+        }
+        }
+    }
+
+*/
+.finale1 {
+    color: black;
+}

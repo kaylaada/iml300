@@ -1,0 +1,16 @@
+{
+  "name": "p5 Overlay Face Sketch",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Kayla's Mouse Cursor Overlay",
+  "icons": {
+    "128": "icon/bobbyross.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/p5.min.js", "js/sketch.js"],
+      "css": ["css/style.css"]
+    }
+  ]
+}

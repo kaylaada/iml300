@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-family: 'Righteous';
+color: white;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Righteous';
+    color: white;
+}
+
+h3{
+    font-size: 30;
+    text-align: center;
+    font-family:'Roboto Mono', monospace;
+    position: relative;
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.projects {
+    text-align: center;
+    color: white;
+}
+
+.exercises {
+    text-align: center;
+    color: white;
+}
+
+.presentation{
+    text-align: center;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    top: 300px;
+}
+
+.sunflower {
+    display: block;
+  position: relative;
+  width: 120px;
+  height: 100px;
+  left: 790px;
+  top: 10px;
+}
